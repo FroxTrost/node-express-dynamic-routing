@@ -74,7 +74,7 @@ module.exports = { loginhandler, Registerhandler }
 /server.js
 ```javascript
 const express = require('express')
-const r = require('./index')
+const {initializeRouter} = require('node-express-dynamic-routing')
 
 const app = express()
 
