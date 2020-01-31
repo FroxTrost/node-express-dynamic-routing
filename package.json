@@ -42,7 +42,7 @@
     "tslint": "^6.0.0"
   },
   "files": [
-    "./index.js",
-    "./index.ts"
+    "index.js",
+    "index.ts"
   ]
 }
