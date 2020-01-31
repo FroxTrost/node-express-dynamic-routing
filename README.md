@@ -80,7 +80,7 @@ const app = express()
 
 // Initializing routes
 // pass the instance of express.Router() and the path of directory containing all your routes. 
-app.use('', r.initializeRouter(express.Router(), `${__dirname}/src/routes`))
+app.use('', initializeRouter(express.Router(), `${__dirname}/src/routes`))
 
 // server
 const server = app.listen(8085, () => {
