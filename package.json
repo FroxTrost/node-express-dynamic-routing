@@ -1,0 +1,40 @@
+{
+  "name": "node-express-dynamic-routing",
+  "version": "1.0.0",
+  "description": "Provides management for dynamic routing in express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./index.js && tsc",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "author": "FroxTrost",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/glob": "^7.1.1",
+    "@types/node": "^13.5.0",
+    "standard": "^14.3.1",
+    "standard-prettier": "^1.0.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "glob": "^7.1.6",
+    "tslint": "^6.0.0"
+  },
+  "files": [
+    "./index.js",
+    "./index.ts"
+  ]
+}
