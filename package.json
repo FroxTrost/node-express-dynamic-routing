@@ -1,14 +1,22 @@
 {
   "name": "node-express-dynamic-routing",
   "version": "1.0.0",
-  "description": "Provides management for dynamic routing in express",
   "main": "server.js",
+  "keywords": [
+    "node",
+    "express",
+    "routing"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./index.js && tsc",
     "lint": "tslint -p tsconfig.json"
   },
   "author": "FroxTrost",
+  "bugs": {
+    "url": "https://github.com/FroxTrost/node-express-dynamic-routing"
+  },
+  "homepage": "https://github.com/FroxTrost/node-express-dynamic-routing#readme",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.2",
